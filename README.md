@@ -22,7 +22,7 @@ Mobile
 ## Links
 
 - Solution URL: [solution URL](https://your-solution-url.com](https://github.com/gkuzivam/result-summary-app))
-- Live Site URL: [live site](https://gkuzivam.github.io/result-summary-app/result-summary-app/)
+- Live Site URL: [live site](https://gkuzivam.github.io/result-summary-app/)
 
 
 ## Built with

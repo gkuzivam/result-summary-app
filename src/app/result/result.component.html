@@ -1,0 +1,48 @@
+<div class="result-card">
+
+    <!-- RESULT AVERAGE-->
+    <div class="result-holder">
+        <div class="result-average">
+            <div id="result-heading">Your Result</div>
+            <div class="circle">
+                <div id="average-percent">76</div>
+                <div id="hundred">of 100</div>
+            </div>
+            <div class="great">Great</div>
+            <div class="result-text">{{resultText}}</div>
+        </div>
+    </div>
+
+
+    <!-- SUMMARY-->
+    <div class="summary">
+        <div id="summary-heading">Summary</div>
+        <div class="summary-reaction">
+            <img  src="{{resultList[0].icon}}" alt="Icon Text">
+            <span id="reaction-heading"> {{resultList[0].category}}</span>
+            <span id="score"> {{resultList[0].score}}</span>
+            <span id="total"> / 100</span>
+        </div>
+        <div class="summary-memory">
+            <img src="{{resultList[1].icon}}" alt="Icon Text">
+            <span id="memory-heading"> {{resultList[1].category}}</span>
+            <span id="score"> {{resultList[1].score}}</span>
+            <span id="total"> / 100</span>
+        </div>
+        <div class="summary-verbal">
+            <img src="{{resultList[2].icon}}" alt="Icon Text">
+            <span id="verbal-heading"> {{resultList[2].category}}</span>
+            <span id="score"> {{resultList[2].score}}</span>
+            <span id="total"> / 100</span>
+        </div>
+        <div class="summary-visual">
+            <img src="{{resultList[3].icon}}" alt="Icon Text">
+            <span id="visual-heading"> {{resultList[3].category}}</span>
+            <span id="score"> {{resultList[3].score}} </span>
+            <span id="total"> / 100</span>
+        </div>
+
+        <button>Continue</button>
+
+    </div>
+</div>
